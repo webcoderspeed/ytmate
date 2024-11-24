@@ -1,0 +1,19 @@
+@import "./custom";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+.container {
+    padding-left: rem(12) /* 12px */;
+    padding-right: rem(12) /* 12px */;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #f9f9f9;
+    color: #293a46;
+}
+.container {
+    @apply tw-container tw-mx-auto;
+}
+
+
